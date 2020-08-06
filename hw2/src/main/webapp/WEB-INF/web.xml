@@ -16,4 +16,9 @@
     <servlet-name>first-servlet</servlet-name>
     <url-pattern>/first</url-pattern>
   </servlet-mapping>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error</location>
+  </error-page>
 </web-app>
